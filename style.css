@@ -284,7 +284,7 @@ header nav ul a:hover {
         font-size: 5vh;
     }
     #verde a {
-        font-size: 2.3vh;
+        font-size: 2.5vh;
         padding: 3vh;
         width: 95%;
         height: auto;
@@ -299,6 +299,47 @@ header nav ul a:hover {
         width: 90vw;
         height: auto;
         padding: 8px;
+    }
+    .tela img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 368px) {
+    body {
+        margin-top: 3vh;
+    }
+    nav ul li a {
+        font-size: 10px;
+        padding: 6px 10px;
+    }
+    header {
+        height: 14vh;
+        padding: 6px;
+    }
+    .grupo {
+        width: 100%;
+        height: 85%;
+    }
+    #verde h2 {
+        font-size: 4vh;
+    }
+    #verde a {
+        font-size: 2vh;
+        padding: 2vh;
+        width: 95%;
+        height: auto;
+    }
+    #amarelo h1 {
+        font-size: 4vh;
+    }
+    #amarelo span {
+        font-size: 3vh;
+    }
+    .celular {
+        width: 95vw;
+        height: auto;
+        padding: 6px;
     }
     .tela img {
         width: 100%;
